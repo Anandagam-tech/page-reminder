@@ -1,0 +1,21 @@
+{
+  "ntfy_topic": "pick-a-long-random-topic-name",
+  "ntfy_server": "https://ntfy.sh",
+  "browser": "C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe",
+  "max_late_minutes": 60,
+  "reminders": [
+    {
+      "name": "Check visa appointment dates",
+      "message": "Sign in and look for an earlier appointment under Reschedule.",
+      "url": "https://ais.usvisa-info.com/en-ca/niv/users/sign_in",
+      "times": ["09:00", "13:00", "17:00", "21:00"]
+    },
+    {
+      "name": "Check course waitlist",
+      "message": "See if a seat opened up.",
+      "url": "https://example.edu/registration",
+      "times": ["08:30", "18:30"],
+      "priority": "default"
+    }
+  ]
+}
